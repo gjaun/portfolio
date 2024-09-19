@@ -7,6 +7,7 @@ function App() {
   return (
     <Router>
       <MainRouter />
+      <h1>Test heading</h1>
     </Router>
   );
 }
