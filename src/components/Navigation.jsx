@@ -1,0 +1,71 @@
+import Logo from '../assets/images/portfolio-logo.png';
+import { Link, useLocation } from 'react-router-dom';
+import { Container, Row, Col } from 'react-bootstrap';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+
+function Navigation() {
+  const location = useLocation();
+  const path = location.pathname;
+  console.log(path);
+
+  return (
+    <Navbar expand="lg" bg="dark" data-bs-theme="dark" sticky="top">
+      <Container className="d-flex align-items-center">
+        <Navbar.Brand>
+          <Link to="/">
+            <img
+              src={Logo}
+              alt="Portfolio logo image"
+              style={{ marginBottom: '4.5px' }}
+            />
+          </Link>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav" className="justify-content">
+          <Nav className="me-auto">
+            <Nav.Item className="mx-2">
+              <Link to="/" className={path === '/' ? 'active' : ''}>
+                Home
+              </Link>
+            </Nav.Item>
+            <Nav.Item className="mx-2">
+              <Link to="/about" className={path === '/about' ? 'active' : ''}>
+                About
+              </Link>
+            </Nav.Item>
+            <Nav.Item className="mx-2">
+              <Link
+                to="/projects"
+                className={path === '/projects' ? 'active' : ''}
+              >
+                Projects
+              </Link>
+            </Nav.Item>
+            <Nav.Item className="mx-2">
+              <Link
+                to="/services"
+                className={path === '/services' ? 'active' : ''}
+              >
+                Services
+              </Link>
+            </Nav.Item>
+            <Nav.Item className="mx-2">
+              <Link
+                to="/contact"
+                className={path === '/contact' ? 'active' : ''}
+              >
+                Contact
+              </Link>
+            </Nav.Item>
+            {/* <Nav.Link eventKey="disabled" disabled>
+              Under Construction
+            </Nav.Link> */}
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+}
+
+export default Navigation;
