@@ -7,7 +7,6 @@ import Navbar from 'react-bootstrap/Navbar';
 function Navigation() {
   const location = useLocation();
   const path = location.pathname;
-  console.log(path);
 
   return (
     <Navbar expand="lg" bg="dark" data-bs-theme="dark" sticky="top">

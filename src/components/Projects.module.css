@@ -1,0 +1,12 @@
+.img {
+  width: 420px;
+}
+
+p {
+  font-size: var(--main-font-size);
+}
+
+div a {
+  text-decoration: none;
+  font-size: var(--small-font-size);
+}

@@ -6,22 +6,22 @@ import styles from './Home.module.css';
 
 function Home(props) {
   return (
-    <main>
+    <main className={styles['wrapper']}>
       <Container>
         <Row className="w-100 d-flex align-items-center">
-          <Col>
+          <Col className=" py-sm-5">
             <div>
               <h1>Hello</h1>
               <h3>My name is Gichul Jaun</h3>
               <h5>Software Engineering Student in Centennial College</h5>
               <Link to="/contact">
-                <Button variant="outline-dark" size="sm">
+                <Button variant="outline-dark" size="sm" className="mt-4">
                   Contact me
                 </Button>
               </Link>
             </div>
           </Col>
-          <Col className="py-2">
+          <Col className="py-2 d-none d-md-block">
             <Carousel fade>
               <Carousel.Item interval={2000}>
                 <img
@@ -31,6 +31,7 @@ function Home(props) {
                 />
                 <Carousel.Caption>
                   <h3>Programming</h3>
+                  <p>Java, C#, JavaScript, Python</p>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item interval={2000}>
@@ -40,7 +41,8 @@ function Home(props) {
                   className={styles['carousel-img']}
                 />
                 <Carousel.Caption>
-                  <h3>Programming</h3>
+                  <h3>Software Design Principles</h3>
+                  <p>Agile Methodologies</p>
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
