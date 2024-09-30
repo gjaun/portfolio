@@ -21,7 +21,7 @@ function Navigation() {
     <Navbar expand="lg" bg="dark" data-bs-theme="dark" sticky="top">
       <Container className="d-flex align-items-center">
         <Navbar.Brand>
-          <Link to="/portfolio">
+          <Link to="/portfolio/">
             <img
               src={Logo}
               alt="Portfolio logo image"
@@ -35,7 +35,7 @@ function Navigation() {
             <Nav.Item className="mx-2">
               <Link
                 to="/portfolio"
-                className={path === '/portfolio' ? 'active' : ''}
+                className={path === '/portfolio/' ? 'active' : ''}
               >
                 Home
               </Link>
