@@ -1,3 +1,4 @@
+import React from 'react';
 import Profile from '../assets/images/profile-resize-min.jpg';
 import pdf from '../assets/documents/GichulJaun_Resume.pdf';
 import { Container, Row, Col } from 'react-bootstrap';

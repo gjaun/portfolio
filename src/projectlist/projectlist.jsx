@@ -1,3 +1,4 @@
+import React from 'react';
 import HtmlPuzzle from '../assets/images/htmlpuzzle-snap-min.png';
 import ChatApp from '../assets/images/chatapp-snap-min.png';
 import TeamApp from '../assets/images/teamapp-snap-min.png';

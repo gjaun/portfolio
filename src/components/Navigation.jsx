@@ -1,3 +1,4 @@
+import React from 'react';
 import Logo from '../assets/images/portfolio-logo.png';
 import { Link, useLocation } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';

@@ -1,3 +1,4 @@
+import React from 'react';
 import { projectList } from '../projectlist/projectlist';
 import { Container, Row, Col } from 'react-bootstrap';
 import styles from './projects.module.css';
