@@ -21,7 +21,7 @@ function Navigation() {
     <Navbar expand="lg" bg="dark" data-bs-theme="dark" sticky="top">
       <Container className="d-flex align-items-center">
         <Navbar.Brand>
-          <Link to="/">
+          <Link to="/portfolio">
             <img
               src={Logo}
               alt="Portfolio logo image"
@@ -33,35 +33,41 @@ function Navigation() {
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content">
           <Nav className="me-auto">
             <Nav.Item className="mx-2">
-              <Link to="/" className={path === '/' ? 'active' : ''}>
+              <Link
+                to="/portfolio"
+                className={path === '/portfolio' ? 'active' : ''}
+              >
                 Home
               </Link>
             </Nav.Item>
             <Nav.Item className="mx-2">
-              <Link to="/about" className={path === '/about' ? 'active' : ''}>
+              <Link
+                to="/portfolio/about"
+                className={path === '/portfolio/about' ? 'active' : ''}
+              >
                 About
               </Link>
             </Nav.Item>
             <Nav.Item className="mx-2">
               <Link
-                to="/projects"
-                className={path === '/projects' ? 'active' : ''}
+                to="/portfolio/projects"
+                className={path === '/portfolio/projects' ? 'active' : ''}
               >
                 Projects
               </Link>
             </Nav.Item>
             <Nav.Item className="mx-2">
               <Link
-                to="/services"
-                className={path === '/services' ? 'active' : ''}
+                to="/portfolio/services"
+                className={path === '/portfolio/services' ? 'active' : ''}
               >
                 Services
               </Link>
             </Nav.Item>
             <Nav.Item className="mx-2">
               <Link
-                to="/contact"
-                className={path === '/contact' ? 'active' : ''}
+                to="/portfolio/contact"
+                className={path === '/portfolio/contact' ? 'active' : ''}
               >
                 Contact
               </Link>

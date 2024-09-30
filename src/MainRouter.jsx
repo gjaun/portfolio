@@ -20,11 +20,11 @@ function MainRouter() {
     <div>
       <Navigation />
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/about" element={<About />} />
-        <Route exact path="/projects" element={<Projects />} />
-        <Route exact path="/services" element={<Services />} />
-        <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/portfolio" element={<Home />} />
+        <Route exact path="/portfolio/about" element={<About />} />
+        <Route exact path="/portfolio/projects" element={<Projects />} />
+        <Route exact path="/portfolio/services" element={<Services />} />
+        <Route exact path="/portfolio/contact" element={<Contact />} />
       </Routes>
     </div>
   );

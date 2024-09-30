@@ -23,7 +23,7 @@ function Home(props) {
               <h1>Hello</h1>
               <h3>My name is Gichul Jaun</h3>
               <h5>Software Engineering Student in Centennial College</h5>
-              <Link to="/contact">
+              <Link to="/portfolio/contact">
                 <Button variant="outline-dark" size="sm" className="mt-4">
                   Contact me
                 </Button>
