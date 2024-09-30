@@ -3,6 +3,14 @@ import ChatApp from '../assets/images/chatapp-snap-min.png';
 import TeamApp from '../assets/images/teamapp-snap-min.png';
 import VidMonster from '../assets/images/vid-monster-snap-min.png';
 
+/*
+File Name: projectList.jsx 
+Student Name: Gichul Jaun
+Student ID: 301375948
+Course: COMP229-408
+Date: October 1, 2024
+*/
+
 export const projectList = [
   {
     id: 1,

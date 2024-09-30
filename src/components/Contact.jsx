@@ -2,6 +2,14 @@ import { useState } from 'react';
 import { Container, Row, Col, Button, Form } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 
+/*
+File Name: Contact.jsx 
+Student Name: Gichul Jaun
+Student ID: 301375948
+Course: COMP229-408
+Date: October 1, 2024
+*/
+
 function Contact(props) {
   const [validated, setValidated] = useState(false);
   const [firstName, setFirstName] = useState('');

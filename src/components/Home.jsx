@@ -4,6 +4,14 @@ import { Carousel, Container, Row, Col, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import styles from './Home.module.css';
 
+/*
+File Name: Home.jsx 
+Student Name: Gichul Jaun
+Student ID: 301375948
+Course: COMP229-408
+Date: October 1, 2024
+*/
+
 function Home(props) {
   return (
     <main className={styles['wrapper']}>

@@ -1,5 +1,13 @@
 import { Container, Row, Col } from 'react-bootstrap';
 
+/*
+File Name: Services.jsx 
+Student Name: Gichul Jaun
+Student ID: 301375948
+Course: COMP229-408
+Date: October 1, 2024
+*/
+
 function Services(props) {
   return (
     <main>

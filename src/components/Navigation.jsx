@@ -4,6 +4,14 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
+/*
+File Name: Navigation.jsx 
+Student Name: Gichul Jaun
+Student ID: 301375948
+Course: COMP229-408
+Date: October 1, 2024
+*/
+
 function Navigation() {
   const location = useLocation();
   const path = location.pathname;

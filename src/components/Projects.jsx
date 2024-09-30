@@ -2,6 +2,14 @@ import { projectList } from '../projectlist/projectlist';
 import { Container, Row, Col } from 'react-bootstrap';
 import styles from './projects.module.css';
 
+/*
+File Name: Projects.jsx 
+Student Name: Gichul Jaun
+Student ID: 301375948
+Course: COMP229-408
+Date: October 1, 2024
+*/
+
 function Projects(props) {
   const projects = projectList;
   const rows = [];

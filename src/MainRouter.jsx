@@ -6,6 +6,14 @@ import Projects from './components/Projects';
 import Services from './components/Services';
 import Contact from './components/Contact';
 
+/*
+File Name: MainRouter.jsx 
+Student Name: Gichul Jaun
+Student ID: 301375948
+Course: COMP229-408
+Date: October 1, 2024
+*/
+
 function MainRouter() {
   return (
     <div>

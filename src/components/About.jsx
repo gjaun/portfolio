@@ -3,6 +3,14 @@ import pdf from '../assets/documents/GichulJaun_Resume.pdf';
 import { Container, Row, Col } from 'react-bootstrap';
 import styles from './About.module.css';
 
+/*
+File Name: About.jsx 
+Student Name: Gichul Jaun
+Student ID: 301375948
+Course: COMP229-408
+Date: October 1, 2024
+*/
+
 function About() {
   return (
     <main>
