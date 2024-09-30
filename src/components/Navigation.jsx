@@ -34,7 +34,7 @@ function Navigation() {
           <Nav className="me-auto">
             <Nav.Item className="mx-2">
               <Link
-                to="/portfolio"
+                to="/portfolio/"
                 className={path === '/portfolio/' ? 'active' : ''}
               >
                 Home
