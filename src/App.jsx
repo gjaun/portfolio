@@ -13,7 +13,7 @@ Date: October 1, 2024
 
 function App() {
   return (
-    <Router>
+    <Router basename="/portfolio">
       <MainRouter />
     </Router>
   );
